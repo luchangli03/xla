@@ -147,7 +147,6 @@ supported:
   - unsqueeze_
   - var
   - var.dim
-  - var.correction
   - _s_where
   - norm.ScalarOpt_dtype
   - norm.Scalar
