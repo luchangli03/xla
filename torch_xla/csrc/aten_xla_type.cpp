@@ -2961,7 +2961,6 @@ at::Tensor XLANativeFunctions::std(const at::Tensor& self,
       keepdim, correction ? *correction : 1));
 }
 
-<<<<<<< HEAD
 std::tuple<at::Tensor, at::Tensor> XLANativeFunctions::std_mean(
     const at::Tensor& self, c10::optional<at::IntArrayRef> dim,
     c10::optional<int64_t> correction, bool keepdim) {
